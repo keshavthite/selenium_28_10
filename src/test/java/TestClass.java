@@ -10,5 +10,6 @@ public class TestClass {
         driver.get("https://www.google.com/");
         String title=driver.getTitle();
         Assert.assertEquals(title,"Google");
+        driver.quit();
     }
 }
